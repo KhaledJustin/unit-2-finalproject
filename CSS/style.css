@@ -40,12 +40,17 @@ header ul a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 0px;
+  padding: 3px;
 }
 main {
-  margin-top: 60px;
+  margin-top: 50px;
   padding: 10px;
   text-align: center;
+}
+#what-is-a-rubiks-cube {
+  color: black;
+  background-color: white;
+  padding: 5px;
 }
 footer {
   position: absolute;
