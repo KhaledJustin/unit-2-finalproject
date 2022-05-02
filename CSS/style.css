@@ -39,13 +39,18 @@ header ul a:hover {
 #headerImg {
   position: absolute;
   left: 0;
-  padding: 5px;
+  top: 0;
+  padding: 0px;
 }
 main {
   margin-top: 60px;
   padding: 10px;
   text-align: center;
 }
-.next_step_arrow {
-  padding-bottom: 110px;
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #303030;
+  text-align: center;
 }

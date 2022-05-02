@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rubiks Cube</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <style>
+      .next_step_arrow {
+        padding-bottom: 110px;
+      }
+      hr {
+        width: 90%;
+        height: 5px;
+        background-color: ghostwhite;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -28,27 +39,69 @@
       <h1>How to Solve the Rubiks Cube</h1>
       <section>
         <h2>Beginners Method</h2>
-        <p>The first step in solving the rubiks cube is solving the cross</p>
-        <img
-          src="images/no_cross.png"
-          alt="picture showing an unsolved rubiks cube"
-        />
-        <img
-          class="next_step_arrow"
-          width="150px"
-          height="70px"
-          src="images/point_to_next_step.png"
-          alt="arrow directing the user to the next step in solving the Rubiks cube"
-        />
-        <img
-          src="images/solved_cross.png"
-          alt="picture showing a rubiks cube with a solved cross and noting else"
-          height="280px"
-        />
+        <div>
+          <p>The first step in solving the rubiks cube is solving the cross</p>
+          <img
+            src="images/no_cross.png"
+            alt="picture showing an unsolved rubiks cube"
+          />
+          <img
+            class="next_step_arrow"
+            width="150px"
+            height="70px"
+            src="images/point_to_next_step.png"
+            alt="arrow directing the user to the next step in solving the Rubiks cube"
+          />
+          <img
+            src="images/solved_cross.png"
+            alt="picture showing a rubiks cube with a solved cross and noting else"
+            height="280px"
+          />
+        </div>
+        <hr />
+        <div>
+          <p>The Second step would be to solve the first layer of the cube</p>
+          <img
+            src="images/solved_cross.png"
+            alt="picture showing a rubiks cube with a solved cross and noting else"
+            height="300px"
+          />
+          <img
+            class="next_step_arrow"
+            width="150px"
+            height="70px"
+            src="images/point_to_next_step.png"
+            alt="arrow directing the user to the next step in solving the Rubiks cube"
+          />
+          <img
+            src="images/first_layer_solved.png"
+            alt="picture of one row solved on all sides of a rubiks cube"
+            height="280px"
+          />
+        </div>
+        <hr />
+        <div>
+          <p>Logically the next step is solving the second layer</p>
+          <img
+            src="images/first_layer_solved.png"
+            alt="picture of one row solved on all sides of a rubiks cube"
+          />
+          <img
+            class="next_step_arrow"
+            width="150px"
+            height="70px"
+            src="images/point_to_next_step.png"
+            alt="arrow directing the user to the next step in solving the Rubiks cube"
+          />
+          <img
+            src="images/second_layer_solved.png"
+            alt="picture showing 2 rows solved no all sides of a rubiks cube"
+          />
+        </div>
       </section>
     </main>
-    <!-- <footer>
+    <footer>
       <p>&#169; PTEC</p>
-    </footer> -->
+    </footer>
   </body>
 </html>
